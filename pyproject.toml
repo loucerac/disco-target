@@ -1,6 +1,6 @@
 [project]
 name = "disco-target"
-version = "0.0.1"
+version = "0.0.3"
 description = "Target dicovery for disease-driven drug repurposing."
 authors = [{ name = "Carlos Loucera", email = "clou@us.es" }]
 readme = "README.md"
@@ -114,7 +114,7 @@ branch = true
 source = ["disco_target"]
 
 [tool.bumpver]
-current_version = "0.0.2"
+current_version = "0.0.3"
 version_pattern = "MAJOR.MINOR.PATCH"
 commit_message = "bump version {old_version} -> {new_version}"
 tag_message = "{new_version}"
