@@ -130,3 +130,4 @@ push = true
     'current_version = "{version}"',
     'version = "{version}"',
 ]
+"uv.lock" = []
