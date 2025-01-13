@@ -7,9 +7,11 @@ on:
     branches: [main]
 
 jobs:
-  validate-codecov-config:
-    runs-on: ubuntu-22.04
+  test:
+    name: Run tests and collect coverage
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Validate codecov configuration
-        run: curl -sSL --fail-with-body --data-binary @codecov.yaml https://codecov.io/validate
+      - name: Upload results to Codecov
+        uses: codecov/codecov-action@v5
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
