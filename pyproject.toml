@@ -5,16 +5,13 @@ description = "Target dicovery for disease-driven drug repurposing."
 authors = [{ name = "Carlos Loucera", email = "clou@us.es" }]
 readme = "README.md"
 keywords = ['python']
-requires-python = ">=3.9,<4.0"
+requires-python = ">=3.10,<4.0"
 classifiers = [
-    "Intended Audience :: Developers",
+    "Intended Audience :: Bioinformatics",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
-    "Programming Language :: Python :: 3.12",
-    "Programming Language :: Python :: 3.13",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 
