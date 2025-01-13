@@ -1,6 +1,7 @@
 # disco-target
 
-[![Release](https://img.shields.io/github/v/release/loucerac/disco-target)](https://img.shields.io/github/v/release/loucerac/disco-target)
+[![PyPI version](https://badge.fury.io/py/disco-target.svg)](https://badge.fury.io/py/disco-target)
+
 [![Build status](https://img.shields.io/github/actions/workflow/status/loucerac/disco-target/main.yml?branch=main)](https://github.com/loucerac/disco-target/actions/workflows/main.yml?query=branch%3Amain)
 [![codecov](https://codecov.io/gh/loucerac/disco-target/branch/main/graph/badge.svg)](https://codecov.io/gh/loucerac/disco-target)
 [![Commit activity](https://img.shields.io/github/commit-activity/m/loucerac/disco-target)](https://img.shields.io/github/commit-activity/m/loucerac/disco-target)
